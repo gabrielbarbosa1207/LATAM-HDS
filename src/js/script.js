@@ -4,5 +4,5 @@ document.addEventListener("DOMContentLoaded", function() {
         for(var i = 0; i < btns.length; i++){
             btns[i].style.display = "block"
         }
-    }, 465000); // 465000 milliseconds or 7 minutes 45 seconds
+    }, 474000); // 465000 milliseconds or 7 minutes 45 seconds
 });
