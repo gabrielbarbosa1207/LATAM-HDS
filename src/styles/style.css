@@ -1,0 +1,175 @@
+html{
+    min-height: 100vh;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #e3e1e1;
+}
+
+header{
+    background-color: #336be6;
+    padding: 25px 5px;
+    text-align: center;
+    color: white;
+}
+
+main{
+    text-align: center;
+    padding: 15px 5px;
+}
+
+.highlight{
+    color: #82230e;
+    font-weight: 800;
+}
+
+h1{
+    font-size: 32px;
+    line-height: 31px;
+    margin: 0px 5px;
+    font-weight: 400;
+}
+
+iframe{
+    width: 99%;
+    height: 230px;
+}
+
+@media screen and (min-width:750px){
+    h1{
+        font-size: 42px;
+        width: 70%;
+        display: block;
+        margin: auto;
+        line-height: 40px;
+        margin: 2dvb auto;
+    }
+
+    iframe{
+        width: 80%;
+        height: 700px;
+        display: block;
+        margin: auto;
+    }
+}
+
+.comment{
+    text-align: left;
+}
+
+.comment-section{
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 15px;
+    text-align: left;
+    margin: 15px 0px;
+    max-width: 650px;
+    display: block;
+    margin: auto;
+}
+
+.name{
+    color: #365899;
+    font-weight: bold;
+    margin: 2px 0px;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0px 15px 0px;
+}
+
+.profile-img{
+    border-radius: 50%;
+}
+
+.profile-comment{
+    margin: 0px;
+    line-height: 16px;
+}
+
+.profile-info-section{
+    padding: 15px 7px;
+    background-color: #f5f5f4;
+    border-radius: 10px;
+}
+
+.iteraction-div{
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    color: #9097a3;
+    margin: 0px 5px;
+}
+
+.iteraction-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+.iteraction-act{
+    margin: 0px 0px;
+}
+
+.reaction-div{
+    background-color: white;
+    padding: 3px 8px;
+    border-radius: 25px;
+    margin-top: -15px;
+    color: #9097a3;
+    font-size: 13px;
+    align-items:start;
+    display: flex;
+    gap: 5px;
+}
+
+.sub-comment{
+    margin-left: 55px;
+}
+
+footer{
+    padding: 35px 0px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+}
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        
+    }
+    50% {
+        transform: scale(1.07);
+       /* Slightly darker shade during pulse */
+    }
+    100% {
+        transform: scale(1);
+        
+    }
+}
+
+a {
+    display: inline-block;  /* For transform property to work */
+    background-color: #00ff00;
+    color: white;
+    padding: 10px 45px;
+    text-decoration: none;
+    margin: 20px 0px;
+    font-weight: 600;  /* Assuming you meant "font-weight" instead of "font-family" */
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px #00ff00;
+    animation: 1s pulse infinite;
+}
+
+.button{
+    display: none;
+}
